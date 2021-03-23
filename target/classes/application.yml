@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    password: 66776688
+    driver-class-name:
+    url: jdbc:mysql://localhost:3306/metadata?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+
+#mybatis:
+#  config-location: classpath:mybatis/mybatis-cfg.xml
+#  mapper-locations:
+#    - classpath:mybatis/mapper/*.xml
+
+logging:
+  level:
+    root: info
